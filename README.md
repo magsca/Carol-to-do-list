@@ -3,7 +3,7 @@
 <h1> ✔️ Lista de Tarefas </h1> <br />
 Lista de tarefas criada com HTML, CSS e JavaScript. <br />
 <h2> 📝 Descrição </h2> <br />
-Projeto idealizado para criar uma lista de tarefas com funções para adicionar um novo item, riscar a tarefa cumprida e remover de forma definitiva. <br />
+Projeto idealizado para criar uma lista de tarefas com funções para adicionar um novo item, riscar a tarefa concluída e removê-la de forma definitiva. <br />
 <h2> 📚 Conteúdo </h2> <br />
 •	Adição de itens: criado para adicionar novos itens na listagem. <br />
 •	Conclusão de item: criado para riscar um item concluído. <br />
