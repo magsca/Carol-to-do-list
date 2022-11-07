@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/hands.webp");
+    background-color: aliceblue;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario-tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.todolist {
+    background-color: #f5fafd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #5C331B;
+}
+
+#border {
+    border: 12px;
+    border-style: double;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li {
+    clear: both;
+    list-style: none;
+    font-weight: bold;
+}
+
+input,
+button {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+button:hover {
+    color: #333;
+}
+
+.criar {
+    font-size: 30px;
+    color: rgb(0, 212, 46);
+}
+
+
+input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #5C331B;
+}
+
+input[type=text]:focus {
+    color: #333;
+}
+
+/*overflow: hidden corta o conteúdo que ultrapassa a div */
+li {
+    display: flex;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+li>span {
+    font-size: 14px;
+    width: 237px;
+    padding: 0 0 0 11px;
+}
+
+li>input [type="text"] {
+    width: 226px;
+}
+
+.delete {
+    color: #CF2323;
+}
+
+.completa {
+    text-decoration: line-through;
+    color: #5C331B;
+}
