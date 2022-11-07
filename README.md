@@ -1,4 +1,4 @@
-# Carol-to-do-list
+# Carol's To do List
 
 <h1> ✔️ Lista de Tarefas </h1> <br />
 Lista de tarefas criada com HTML, CSS e JavaScript. <br />
